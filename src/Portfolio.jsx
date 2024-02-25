@@ -16,7 +16,7 @@ const Portfolio = () => {
       <ul className='projects'>
         {projects.map(project => (
           <li key={project.id}>
-            <h2 className='project-title'>asadas{project.title}</h2>
+            <h2 className='project-title'>{project.title}</h2>
             <p className='project-description'>{project.description}</p>
             <p className='project-tags'>Tags: {project.tags.join(', ')}</p>
             <a href={project.url} target="_blank" rel="noopener noreferrer" className='project-link'>Project Link</a>
