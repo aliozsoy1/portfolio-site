@@ -2,7 +2,7 @@
   "name": "portfoliowithadmin",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aliozsoy1.github.io/portfolio-site/portfolio",
+  "homepage": "https://aliozsoy1.github.io/portfolio-site/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
