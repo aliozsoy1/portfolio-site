@@ -12,7 +12,7 @@ const App = () => {
         <Route path="/admin" element={<AdminDashboard />} />
 
         {/* Portföy Sitesi Yönlendirmeleri */}
-        <Route path="/" element={<Portfolio />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
       </Routes>
     </Router>
